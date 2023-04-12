@@ -1,8 +1,7 @@
-
-
 const Square = (props) => {
+    console.log(props.squares, props.player)
     return (
-        <div className="square">{props.adj}</div>
+        <div className="square"></div>
     )
 }
 
